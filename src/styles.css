@@ -1,0 +1,59 @@
+:root{
+  background-color: #5D5C61;
+}
+.side1
+{
+  grid-area: sidebar;
+ justify-content: center;
+ text-align: left;
+ margin: 20px;
+ padding: 20px;
+  
+}
+.side2{
+  grid-area: reviews;
+  padding: 10px;
+    margin: 20px;
+}
+.side3{
+  grid-area: analyis;
+  padding: 10px;
+    margin: 20px;
+
+}
+.side4{
+  grid-area: rating;
+  padding: 10px;
+    margin: 20px;
+}
+.side5{
+  grid-area:visitor;
+  background-color:white;
+  padding: 0 2%;
+}
+
+.analysis1{
+  text-align:center;
+}
+.grid-container{
+  display: grid;
+  background-color: #F8F8FF;
+  grid-template-areas: 
+  "sidebar reviews analyis rating"
+  "sidebar visitor visitor visitor";
+  gap: 2%;
+}
+
+.nav-bar{
+  background-color:#444444
+}
+.nav-bar h2{
+  margin: 10px;
+}
+
+#square{
+background-color: black;
+height: 250px;
+width: 600px;
+margin: 0 auto;
+}
